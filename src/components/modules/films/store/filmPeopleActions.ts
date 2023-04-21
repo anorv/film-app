@@ -19,7 +19,6 @@ const fetchFilmPeopleData = async (id: number): Promise<FilmPeople[]> => {
     const response = await axios.get(`https://swapi.dev/api/people`);
 
     const peoplesByFilmId = filterPeopleByFilmId(response.data.results, id);
-    console.log(peoplesByFilmId);
     const people: FilmPeople[] = peoplesByFilmId.map((filmData: FilmPeopleResponce) =>
       filmPeopleDisplayMapper(filmData)
     );

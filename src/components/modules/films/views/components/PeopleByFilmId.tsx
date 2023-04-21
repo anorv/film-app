@@ -16,7 +16,7 @@ const PeopleByFilmId: React.FC<{ filmPeopleData: FilmPeople[] }> = ({ filmPeople
 
   if (filmPeopleData) {
     return (
-      <div className="table-responsive mt-4" style={{ maxHeight: '350px', overflowY: 'scroll' }}>
+      <div className="table-responsive mt-4 shadow-lg" style={{ maxHeight: '22rem', overflowY: 'scroll' }}>
         <table className="table table-striped table-scrollable">
           <thead>
             <tr>

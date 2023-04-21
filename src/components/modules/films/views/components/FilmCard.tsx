@@ -14,7 +14,7 @@ const FilmCard: React.FC<Props> = ({ title, id, releaseDate, onFilmPeople }) => 
     onFilmPeople(id);
   };
   return (
-    <Card className="m-2">
+    <Card className="m-2 shadow-lg rounded" style={{ width: '22rem' }}>
       <Card.Body>
         <Row>
           <Col md={9}>

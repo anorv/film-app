@@ -8,8 +8,8 @@ import { Fragment } from 'react';
 function AppWrapper() {
   return (
     <Fragment>
-      <Container fluid>
-        <Row className="h-100">
+      <Container fluid className="vh-100">
+        <Row>
           <Col xs={12} sm={2} className="order-sm-1">
             <MainNav />
           </Col>

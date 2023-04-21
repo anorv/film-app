@@ -9,7 +9,7 @@ function AppWrapper() {
   return (
     <Fragment>
       <Container fluid className="vh-100">
-        <Row>
+        <Row className="vh-container">
           <Col xs={12} sm={2} className="order-sm-1">
             <MainNav />
           </Col>

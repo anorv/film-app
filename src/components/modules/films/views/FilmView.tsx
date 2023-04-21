@@ -7,7 +7,6 @@ import { getFilmPeopleData } from '../store/filmPeopleActions';
 import { ThunkDispatch } from 'redux-thunk';
 import { AnyAction } from '@reduxjs/toolkit';
 import FilmDisplay from './components/FilmDisplay';
-import Row from 'react-bootstrap/Row';
 import PeopleByFilmId from './components/PeopleByFilmId';
 
 const FilmView: React.FC = () => {
